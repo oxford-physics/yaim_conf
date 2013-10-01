@@ -1,0 +1,11 @@
+# camont
+SW_DIR=$VO_SW_DIR/camont
+DEFAULT_SE="$CLASSIC_HOST"
+#QUEUES="long medium short"
+STORAGE_DIR=$CLASSIC_STORAGE_DIR/camont
+VOMS_SERVERS="'vomss://voms.gridpp.ac.uk:8443/voms/camont?/camont/'"
+VOMSES="'camont voms.gridpp.ac.uk 15025 /C=UK/O=eScience/OU=Manchester/L=HEP/CN=voms.gridpp.ac.uk camont'"
+VOMS_CA_DN="/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B"
+
+#WMS_HOSTS="lcgwms03.gridpp.rl.ac.uk"
+WMS_HOSTS="svr022.gla.scotgrid.ac.uk"

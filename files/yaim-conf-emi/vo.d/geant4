@@ -1,0 +1,12 @@
+# Geant 4
+SW_DIR=$VO_SW_DIR/geant4
+DEFAULT_SE="$CLASSIC_HOST"
+#QUEUES="long medium short"
+STORAGE_DIR=$CLASSIC_STORAGE_DIR/geant4
+VOMS_SERVERS="'vomss://voms.cern.ch:8443/voms/geant4?/geant4/'"
+VOMSES="'geant4 lcg-voms.cern.ch 15007 /C=CH/O=CERN/OU=GRID/CN=host/lcg-voms.cern.ch geant4'"
+VOMS_CA_DN="'/DC=ch/DC=cern/CN=CERN Trusted Certification Authority'"
+
+
+#WMS_HOSTS="lcgwms03.gridpp.rl.ac.uk"
+WMS_HOSTS="wms210.cern.ch"

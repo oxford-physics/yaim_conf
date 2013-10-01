@@ -1,0 +1,10 @@
+#QUEUES="long medium short"
+SW_DIR=$VO_SW_DIR/alice
+DEFAULT_SE=$CLASSIC_HOST
+STORAGE_DIR=$CLASSIC_STORAGE_DIR/alice
+VOMS_SERVERS="'vomss://voms.cern.ch:8443/voms/alice?/alice/'"
+VOMSES="'alice voms.cern.ch 15000 /DC=ch/DC=cern/OU=computers/CN=voms.cern.ch alice' 'alice lcg-voms.cern.ch 15000 /DC=ch/DC=cern/OU=computers/CN=lcg-voms.cern.ch alice'"
+VOMS_CA_DN="'/DC=ch/DC=cern/CN=CERN Trusted Certification Authority' '/DC=ch/DC=cern/CN=CERN Trusted Certification Authority' "
+
+#WMS_HOSTS="lcgwms02.gridpp.rl.ac.uk"
+WMS_HOSTS="wms201.cern.ch"

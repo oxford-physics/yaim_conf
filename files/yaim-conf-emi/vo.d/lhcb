@@ -1,0 +1,11 @@
+# LHCb
+#QUEUES="long medium short"
+#SW_DIR=$VO_SW_DIR/lhcb
+SW_DIR=/cvmfs/lhcb.cern.ch
+DEFAULT_SE=$CLASSIC_HOST
+STORAGE_DIR=$CLASSIC_STORAGE_DIR/lhcb
+VOMS_SERVERS="'vomss://voms.cern.ch:8443/voms/lhcb?/lhcb/'"
+VOMSES="'lhcb lcg-voms.cern.ch 15003 /DC=ch/DC=cern/OU=computers/CN=lcg-voms.cern.ch lhcb ' 'lhcb voms.cern.ch 15003 /DC=ch/DC=cern/OU=computers/CN=voms.cern.ch lhcb'"
+VOMS_CA_DN="'/DC=ch/DC=cern/CN=CERN Trusted Certification Authority' '/DC=ch/DC=cern/CN=CERN Trusted Certification Authority'"
+
+WMS_HOSTS="wms201.cern.ch"

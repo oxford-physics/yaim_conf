@@ -1,0 +1,10 @@
+# Ops (SAM tests)
+SW_DIR=$VO_SW_DIR/ops
+DEFAULT_SE="$CLASSIC_HOST"
+STORAGE_DIR="$CLASSIC_STORAGE_DIR/ops"
+#QUEUES="short express"
+VOMS_SERVERS="vomss://voms.cern.ch:8443/voms/ops?/ops/"
+VOMSES="'ops voms.cern.ch 15009 /DC=ch/DC=cern/OU=computers/CN=voms.cern.ch ops' 'ops lcg-voms.cern.ch 15009 /DC=ch/DC=cern/OU=computers/CN=lcg-voms.cern.ch ops'"
+VOMS_CA_DN="'/DC=ch/DC=cern/CN=CERN Trusted Certification Authority' '/DC=ch/DC=cern/CN=CERN Trusted Certification Authority'"
+
+WMS_HOSTS="wms201.cern.ch"

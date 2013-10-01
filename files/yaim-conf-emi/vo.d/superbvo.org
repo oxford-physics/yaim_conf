@@ -1,0 +1,6 @@
+#QUEUES="long medium short"
+SW_DIR=$VO_SW_DIR/superbvo.org
+DEFAULT_SE=$DPM_HOST
+VOMS_SERVERS="vomss://voms2.cnaf.infn.it:8443/voms/superbvo.org?/superbvo.org/"
+VOMSES="'superbvo.org voms2.cnaf.infn.it 15009 /C=IT/O=INFN/OU=Host/L=CNAF/CN=voms2.cnaf.infn.it superbvo.org' 'superbvo.org voms-02.pd.infn.it 15009 /C=IT/O=INFN/OU=Host/L=Padova/CN=voms-02.pd.infn.it superbvo.org'"
+VOMS_CA_DN="'/C=IT/O=INFN/CN=INFN CA' '/C=IT/O=INFN/CN=INFN CA'"

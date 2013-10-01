@@ -1,0 +1,12 @@
+# dzero
+#QUEUES="long medium short"
+SW_DIR="$VO_SW_DIR/dzero"
+DEFAULT_SE="$CLASSIC_HOST"
+STORAGE_DIR="$CLASSIC_STORAGE_DIR/dzero"
+VOMS_SERVERS="vomss://voms.fnal.gov:8443/voms/dzero?/dzero"
+VOMSES="dzero voms.fnal.gov 15002 /DC=org/DC=doegrids/OU=Services/CN=http/voms.fnal.gov dzero"
+VOMS_CA_DN="/DC=org/DC=DOEGrids/OU=Certificate Authorities/CN=DOEGrids CA 1"
+
+
+#WMS_HOSTS="lcgwms03.gridpp.rl.ac.uk"
+WMS_HOSTS="wms-2-fzk.gridka.de"

@@ -1,0 +1,13 @@
+# esr
+SW_DIR=$VO_SW_DIR/esr
+DEFAULT_SE="$CLASSIC_HOST"
+#QUEUES="long medium short"
+STORAGE_DIR=$CLASSIC_STORAGE_DIR/esr
+SGM="vomss://voms.grid.sara.nl:8443/voms/esr?/esr/Role=VO-Admin"
+USERS="vomss://voms.grid.sara.nl:8443/voms/esr?/esr/eobs"
+VOMS_SERVERS="'vomss://voms.grid.sara.nl:8443/voms/esr?/esr'"
+VOMSES="'esr voms.grid.sara.nl 30001 /O=dutchgrid/O=hosts/OU=sara.nl/CN=voms.grid.sara.nl esr'"
+VOMS_CA_DN="/C=NL/O=NIKHEF/CN=NIKHEF medium-security certification auth"
+
+#WMS_HOSTS="lcgwms03.gridpp.rl.ac.uk"
+WMS_HOSTS="wms.grid.sara.nl"

@@ -1,0 +1,13 @@
+# cms
+#QUEUES="long medium short"
+#SW_DIR=$VO_SW_DIR/cms
+SW_DIR=/cvmfs/cms.cern.ch
+DEFAULT_SE=$CLASSIC_HOST
+STORAGE_DIR=$CLASSIC_STORAGE_DIR/cms
+VOMS_SERVERS="'vomss://voms.cern.ch:8443/voms/cms?/cms/'"
+VOMSES="'cms lcg-voms.cern.ch 15002 /DC=ch/DC=cern/OU=computers/CN=lcg-voms.cern.ch cms 24' 'cms voms.cern.ch 15002 /DC=ch/DC=cern/OU=computers/CN=voms.cern.ch cms'"
+VOMS_CA_DN="'/DC=ch/DC=cern/CN=CERN Trusted Certification Authority' '/DC=ch/DC=cern/CN=CERN Trusted Certification Authority'"
+
+
+WMS_HOSTS="wms201.cern.ch"
+

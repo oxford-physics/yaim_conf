@@ -1,0 +1,15 @@
+# H One
+VOMS_SERVERS="vomss://grid-voms.desy.de:8443/voms/hone?/hone/"
+#QUEUES="long medium short"
+SW_DIR="$VO_SW_DIR/hone"
+DEFAULT_SE="$CLASSIC_HOST"
+STORAGE_DIR="$CLASSIC_STORAGE_DIR/hone"
+VOMSES="'hone grid-voms.desy.de 15106 /C=DE/O=GermanGrid/OU=DESY/CN=host/grid-voms.desy.de hone'"
+VOMS_CA_DN="/C=DE/O=GermanGrid/CN=GridKa-CA"
+
+
+
+#VOMSES="'hone grid-voms.desy.de 15106 /O=GermanGrid/OU=DESY/CN=host/grid-voms.desy.de hone'"
+
+#WMS_HOSTS="lcgwms03.gridpp.rl.ac.uk"
+WMS_HOSTS="grid-wms10.desy.de"

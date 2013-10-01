@@ -1,0 +1,15 @@
+# Zeus
+VOMS_SERVERS="vomss://grid-voms.desy.de:8443/voms/zeus?/zeus/"
+#QUEUES="long medium short"
+SW_DIR="$VO_SW_DIR/zeus"
+DEFAULT_SE="$CLASSIC_HOST"
+STORAGE_DIR="$CLASSIC_STORAGE_DIR/zeus"
+VOMSES="'zeus grid-voms.desy.de 15112 /C=DE/O=GermanGrid/OU=DESY/CN=host/grid-voms.desy.de zeus'"
+VOMS_CA_DN="/C=DE/O=GermanGrid/CN=GridKa-CA"
+
+
+
+#VOMSES="'zeus grid-voms.desy.de 15112 /O=GermanGrid/OU=DESY/CN=host/grid-voms.desy.de zeus'"
+#WMS_HOSTS="lcgwms03.gridpp.rl.ac.uk"
+WMS_HOSTS="grid-wms10.desy.de"
+
