@@ -29,6 +29,7 @@
   $ce_sf00 = hiera ('yaim_conf::params::ce_sf00', undef)
   $ce_si00 = hiera ('yaim_conf::params::ce_si00', undef)
   $ce_smpsize = hiera ('yaim_conf::params::ce_smpsize', undef)
+  $config_torque_nodes = hiera('yaim_conf::params::config_torque_node', 'no')
   $cream_db_password = hiera ('yaim_conf::params::cream_db_password', undef)
   $cream_db_user = hiera ('yaim_conf::params::cream_db_user', undef)
   $cream_pepc_resourceid = hiera ('yaim_conf::params::cream_pepc_resourceid', undef)
