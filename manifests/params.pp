@@ -44,6 +44,7 @@
   $mon_host = hiera ('yaim_conf::params::mon_host', undef)
   $munge_key_file = hiera ('yaim_conf::params::munge_key_file', undef)
   $mysql_password = hiera ('yaim_conf::params::mysql_password', undef)
+  $pap_admin_dn = hiera ('yaim_conf::params::pap_admin_dn', undef)
   $queues = hiera ('yaim_conf::params::queues', undef)
   $real_vos = hiera ('yaim_conf::params::real_vos', undef)
   $se_list = hiera ('yaim_conf::params::se_list', undef)
