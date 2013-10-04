@@ -3,6 +3,7 @@
   $apel_publish_user_dn = hiera ('yaim_conf::params::apel_publish_user_dn', undef)
   $apel_mysql_host = hiera ('yaim_conf::params::apel_mysql_host', undef)
   $argus_pepd_endpoints = hiera ('yaim_conf::params::argus_pepd_endpoints', undef)
+  $argus_host = hiera ('yaim_conf::params::argus_host', undef)
   $batch_log_dir = hiera ('yaim_conf::params::batch_log_dir', undef)
   $batch_server = hiera ('yaim_conf::params::batch_server', undef)
   $batch_version = hiera ('yaim_conf::params::batch_version', undef)
