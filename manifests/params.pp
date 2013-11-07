@@ -15,6 +15,7 @@
   $ce_cpu_speed = hiera ('yaim_conf::params::ce_cpu_speed', undef)
   $ce_cpu_vendor = hiera ('yaim_conf::params::ce_cpu_vendor', undef)
   $ce_host = hiera ('yaim_conf::params::ce_host', undef)
+  $ce_list = hiera ('yaim_conf::params::ce_list', undef)
   $ce_inboundip = hiera ('yaim_conf::params::ce_inboundip', undef)
   $ce_logcpu = hiera ('yaim_conf::params::ce_logcpu', undef)
   $ce_minphysmem = hiera ('yaim_conf::params::ce_minphysmem', undef)
@@ -44,6 +45,7 @@
   $mon_host = hiera ('yaim_conf::params::mon_host', undef)
   $munge_key_file = hiera ('yaim_conf::params::munge_key_file', undef)
   $mysql_password = hiera ('yaim_conf::params::mysql_password', undef)
+  $px_host = hiera ('yaim_conf::params::px_host', undef)
   $pap_admin_dn = hiera ('yaim_conf::params::pap_admin_dn', undef)
   $queues = hiera ('yaim_conf::params::queues', undef)
   $real_vos = hiera ('yaim_conf::params::real_vos', undef)
@@ -57,8 +59,8 @@
   $users_conf = hiera ('yaim_conf::params::users_conf', undef)
   $vos = hiera ('yaim_conf::params::vos', undef)
   $vo_sw_dir = hiera ('yaim_conf::params::vo_sw_dir', undef)
+  $wms_host = hiera('yaim_conf::params::wms_host',undef)
   $wn_list = hiera ('yaim_conf::params::wn_list', undef)
   $cream_java_opts_heap = hiera ('yaim_conf::params::cream_java_opts_heap', undef)
-
-
- }
+  $blah_jobid_prefix = hiera ('yaim_conf::params::blah_jobid_prefix', 'cream_') 
+}

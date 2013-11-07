@@ -1,19 +1,8 @@
 # Site info def for emiui
 
-SITE_NAME=<%= scope.lookupvar('yaim_conf::site_name') %>
-#BDII_LIST=<%= scope.lookupvar('yaim_conf::bdii_list') %>
-BDII_HOST=<%= scope.lookupvar('yaim_conf::bdii_host') %>
-USERS_CONF=<%= scope.lookupvar('yaim_conf::users_conf') %>
-GROUPS_CONF=<%= scope.lookupvar('yaim_conf::groups_conf') %>
-EDGUSERS=<%= scope.lookupvar('yaim_conf::edgusers') %>
-#VO_SW_DIR=<%= scope.lookupvar('yaim_conf::vo_sw_dir') %>
-VOS=<%= scope.lookupvar('yaim_conf::vos') %>
-#SE_LIST=<%= scope.lookupvar('yaim_conf::se_list') %>
-#BATCH_SERVER=<%= scope.lookupvar('yaim_conf::wn_site_info::batch_server') %>
-#WN_LIST=<%= scope.lookupvar('yaim_conf::wn_site_info::wn_list') %>
-#MUNGE_KEY_FILE=<%= scope.lookupvar('yaim_conf::munge_key_file') %>
-#CE_SMPSIZE=<%= scope.lookupvar('yaim_conf::ce_smpsize') %>
-#CE_HOST=<%= scope.lookupvar('yaim_conf::wn_site_info::batch_server') %>
-#TEST=<%= scope.lookupvar('yaim_conf::test_hiera') %>
-PX_HOST=lcgrbp01.gridpp.rl.ac.uk
-WMS_HOST=<%= scope.lookupvar('yaim_conf::wn_site_info::wms_host') %>
+SITE_NAME=<%= site_name %>
+BDII_HOST=<%= bdii_host %>
+VOS=<%= vos %>
+PX_HOST=<%= px_host %>
+WMS_HOST=<%= wms_host %>
+
