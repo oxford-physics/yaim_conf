@@ -7,5 +7,5 @@ VOMS_SERVERS="'vomss://voms.cern.ch:8443/voms/atlas?/atlas/'"
 VOMSES="'atlas lcg-voms.cern.ch 15001 /DC=ch/DC=cern/OU=computers/CN=lcg-voms.cern.ch atlas' 'atlas voms.cern.ch 15001 /DC=ch/DC=cern/OU=computers/CN=voms.cern.ch atlas' 'atlas vo.racf.bnl.gov 15003 /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=vo.racf.bnl.gov  atlas'"
 VOMS_CA_DN="'/DC=ch/DC=cern/CN=CERN Trusted Certification Authority' '/DC=ch/DC=cern/CN=CERN Trusted Certification Authority' 'DC=com/DC=DigiCert-Grid/O=DigiCert Grid/CN=DigiCert Grid CA-1'"
 
-WMS_HOSTS="wms201.cern.ch"
 
+WMS_HOSTS="lcgwms04.gridpp.rl.ac.uk lcgwms06.gridpp.rl.ac.uk svr022.gla.scotgrid.ac.uk wms02.grid.hep.ph.ic.ac.uk"

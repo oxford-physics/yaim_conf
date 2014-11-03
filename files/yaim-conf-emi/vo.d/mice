@@ -1,13 +1,9 @@
 #mice
-SW_DIR=$VO_SW_DIR/mice
+SW_DIR="/cvmfs/mice.gridpp.ac.uk"
 DEFAULT_SE=$CLASSIC_HOST
-STORAGE_DIR=$CLASSIC_STORAGE_DIR/mice
-#RBS="gfe01.hep.ph.ic.ac.uk lcgrb01.gridpp.rl.ac.uk lcgrb02.gridpp.rl.ac.uk"
-#QUEUES="long medium short"
 VOMS_SERVERS="vomss://voms.gridpp.ac.uk:8443/voms/mice?/mice/"
 VOMS_CA_DN="'/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA'"
 VOMSES="'mice voms.gridpp.ac.uk 15001 /C=UK/O=eScience/OU=Manchester/L=HEP/CN=voms.gridpp.ac.uk/Email=ops@tier2.hep.manchester.ac.uk mice'"
 
-#WMS_HOSTS="lcgwms03.gridpp.rl.ac.uk"
-WMS_HOSTS="svr022.gla.scotgrid.ac.uk"
 
+WMS_HOSTS="lcgwms04.gridpp.rl.ac.uk lcgwms06.gridpp.rl.ac.uk svr022.gla.scotgrid.ac.uk wms02.grid.hep.ph.ic.ac.uk"

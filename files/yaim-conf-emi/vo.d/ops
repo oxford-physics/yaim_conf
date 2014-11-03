@@ -7,4 +7,4 @@ VOMS_SERVERS="vomss://voms.cern.ch:8443/voms/ops?/ops/"
 VOMSES="'ops voms.cern.ch 15009 /DC=ch/DC=cern/OU=computers/CN=voms.cern.ch ops' 'ops lcg-voms.cern.ch 15009 /DC=ch/DC=cern/OU=computers/CN=lcg-voms.cern.ch ops'"
 VOMS_CA_DN="'/DC=ch/DC=cern/CN=CERN Trusted Certification Authority' '/DC=ch/DC=cern/CN=CERN Trusted Certification Authority'"
 
-WMS_HOSTS="wms201.cern.ch"
+WMS_HOSTS="lcgwms04.gridpp.rl.ac.uk lcgwms06.gridpp.rl.ac.uk svr022.gla.scotgrid.ac.uk wms02.grid.hep.ph.ic.ac.uk"

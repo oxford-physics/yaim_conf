@@ -1,15 +1,9 @@
 # ILC
 VOMS_SERVERS="vomss://grid-voms.desy.de:8443/voms/ilc?/ilc/"
 #QUEUES="long medium short"
-SW_DIR="$VO_SW_DIR/ilc"
+SW_DIR="/cvmfs/ilc.desy.de"
 DEFAULT_SE="$CLASSIC_HOST"
-STORAGE_DIR="$CLASSIC_STORAGE_DIR/ilc"
 VOMSES="'ilc grid-voms.desy.de 15110 /C=DE/O=GermanGrid/OU=DESY/CN=host/grid-voms.desy.de ilc'"
 VOMS_CA_DN="/C=DE/O=GermanGrid/CN=GridKa-CA"
 
-
-
-#VOMSES="'ilc grid-voms.desy.de 15110 /O=GermanGrid/OU=DESY/CN=host/grid-voms.desy.de ilc'"
-
-#WMS_HOSTS="lcgwms03.gridpp.rl.ac.uk"
-WMS_HOSTS="grid-wms10.desy.de"
+WMS_HOSTS="lcgwms04.gridpp.rl.ac.uk lcgwms06.gridpp.rl.ac.uk svr022.gla.scotgrid.ac.uk wms02.grid.hep.ph.ic.ac.uk"

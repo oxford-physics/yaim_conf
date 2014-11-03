@@ -4,3 +4,4 @@ DEFAULT_SE=$DPM_HOST
 VOMS_SERVERS="vomss://voms2.cnaf.infn.it:8443/voms/superbvo.org?/superbvo.org/"
 VOMSES="'superbvo.org voms2.cnaf.infn.it 15009 /C=IT/O=INFN/OU=Host/L=CNAF/CN=voms2.cnaf.infn.it superbvo.org' 'superbvo.org voms-02.pd.infn.it 15009 /C=IT/O=INFN/OU=Host/L=Padova/CN=voms-02.pd.infn.it superbvo.org'"
 VOMS_CA_DN="'/C=IT/O=INFN/CN=INFN CA' '/C=IT/O=INFN/CN=INFN CA'"
+WMS_HOSTS="lcgwms04.gridpp.rl.ac.uk lcgwms06.gridpp.rl.ac.uk svr022.gla.scotgrid.ac.uk wms02.grid.hep.ph.ic.ac.uk"

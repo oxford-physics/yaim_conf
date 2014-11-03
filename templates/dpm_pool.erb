@@ -1,0 +1,25 @@
+SITE_NAME=<%= @site_name %>
+BDII_HOST=<%= @bdii_host %>
+USERS_CONF=<%= @users_conf %>
+GROUPS_CONF=<%= @groups_conf %>
+EDGUSERS=<%= @edgusers %>
+REAL_VOS=<%= @real_vos %>
+TEST_VOS=<%= @test_vos %>
+VOS=<%= @vos %>
+SE_LIST=<%= @se_list %>
+SE_MOUNT_INFO_LIST=<%= @se_mount_info_list %>
+DPM_HOST="t2se01.physics.ox.ac.uk"   # my-dpm.$MY_DOMAIN
+DPMPOOL=dpmPart
+DPMMGR_UID=281
+DPM_FILESYSTEMS=<%= @dpm_filesystems %>
+DMLITE_TOKEN_PASSWORD=<%= @dpm_tokenpassword %>
+DPM_XROOTD_SHAREDKEY=<%= @dpm_xrootdkey %>
+DPM_XROOTD_DISK_MISC="xrootd.monitor all user flush 30s fstat 60 lfn ops xfr 5 window 5s dest fstat info redir atlas-fax-eu-collector.cern.ch:9330
+if exec xrootd
+xrd.report atlas-fax-eu-collector.cern.ch:9331 every 60s all -buff -poll sync
+fi"
+DPM_DAV="yes"              # Enable DAV access
+DPM_DAV_NS_FLAGS="Write"   # Allow write access on the NS node
+DPM_DAV_DISK_FLAGS="Write" # Allow write access on the disk nodes
+DPM_DAV_SECURE_REDIRECT="On" # Enable redirection from head to disk using plain HTTP.
+DPMFSIZE=200M

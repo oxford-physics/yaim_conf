@@ -16,6 +16,9 @@ class yaim_conf ($service_type) inherits yaim_conf::params {
 # Currently available types are
 # wn, creamce  
     $site_info = "yaim_conf/${service_type}.erb"
+   package { 'glite-yaim-core' :
+        ensure => installed
+  }    
   
    file {'/etc/yaim/site-info.def' :
            ensure  => present,
@@ -25,7 +28,7 @@ class yaim_conf ($service_type) inherits yaim_conf::params {
            content  => template("${site_info}"),
         }
   
-  
+    
   
   file { "/etc/yaim":
   source => "puppet:///modules/yaim_conf/yaim-conf-emi",
@@ -34,7 +37,4 @@ class yaim_conf ($service_type) inherits yaim_conf::params {
   group   => 'root',
   mode    => '0640',
   }
-  
-  
-
 }

@@ -8,5 +8,4 @@ VOMSES="dzero voms.fnal.gov 15002 /DC=org/DC=doegrids/OU=Services/CN=http/voms.f
 VOMS_CA_DN="/DC=org/DC=DOEGrids/OU=Certificate Authorities/CN=DOEGrids CA 1"
 
 
-#WMS_HOSTS="lcgwms03.gridpp.rl.ac.uk"
-WMS_HOSTS="wms-2-fzk.gridka.de"
+WMS_HOSTS="lcgwms04.gridpp.rl.ac.uk lcgwms06.gridpp.rl.ac.uk svr022.gla.scotgrid.ac.uk wms02.grid.hep.ph.ic.ac.uk"

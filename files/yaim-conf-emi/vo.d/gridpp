@@ -5,3 +5,4 @@ STORAGE_DIR=$CLASSIC_STORAGE_DIR/gridpp
 VOMS_SERVERS="'vomss://voms.gridpp.ac.uk:8443/voms/gridpp?/gridpp/'"
 VOMSES="'gridpp voms.gridpp.ac.uk 15000 /C=UK/O=eScience/OU=Manchester/L=HEP/CN=voms.gridpp.ac.uk gridpp' 'gridpp voms03.gridpp.ac.uk 15000 /C=UK/O=eScience/OU=Imperial/L=Physics/CN=voms03.gridpp.ac.uk gridpp' 'gridpp voms02.gridpp.ac.uk 15000 /C=UK/O=eScience/OU=Oxford/L=OeSC/CN=voms02.gridpp.ac.uk gridpp'"
 VOMS_CA_DN="'/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B' '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B' '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B' "
+WMS_HOSTS="lcgwms04.gridpp.rl.ac.uk lcgwms06.gridpp.rl.ac.uk svr022.gla.scotgrid.ac.uk wms02.grid.hep.ph.ic.ac.uk"

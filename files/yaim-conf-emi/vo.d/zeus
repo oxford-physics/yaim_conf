@@ -10,6 +10,5 @@ VOMS_CA_DN="/C=DE/O=GermanGrid/CN=GridKa-CA"
 
 
 #VOMSES="'zeus grid-voms.desy.de 15112 /O=GermanGrid/OU=DESY/CN=host/grid-voms.desy.de zeus'"
-#WMS_HOSTS="lcgwms03.gridpp.rl.ac.uk"
-WMS_HOSTS="grid-wms10.desy.de"
 
+WMS_HOSTS="lcgwms04.gridpp.rl.ac.uk lcgwms06.gridpp.rl.ac.uk svr022.gla.scotgrid.ac.uk wms02.grid.hep.ph.ic.ac.uk"

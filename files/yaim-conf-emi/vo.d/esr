@@ -9,5 +9,4 @@ VOMS_SERVERS="'vomss://voms.grid.sara.nl:8443/voms/esr?/esr'"
 VOMSES="'esr voms.grid.sara.nl 30001 /O=dutchgrid/O=hosts/OU=sara.nl/CN=voms.grid.sara.nl esr'"
 VOMS_CA_DN="/C=NL/O=NIKHEF/CN=NIKHEF medium-security certification auth"
 
-#WMS_HOSTS="lcgwms03.gridpp.rl.ac.uk"
-WMS_HOSTS="wms.grid.sara.nl"
+WMS_HOSTS="lcgwms04.gridpp.rl.ac.uk lcgwms06.gridpp.rl.ac.uk svr022.gla.scotgrid.ac.uk wms02.grid.hep.ph.ic.ac.uk"

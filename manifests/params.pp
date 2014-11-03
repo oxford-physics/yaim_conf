@@ -63,4 +63,9 @@
   $wn_list = hiera ('yaim_conf::params::wn_list', undef)
   $cream_java_opts_heap = hiera ('yaim_conf::params::cream_java_opts_heap', undef)
   $blah_jobid_prefix = hiera ('yaim_conf::params::blah_jobid_prefix', 'cream_') 
+  $dpm_dbpassword = hiera ('yaim_conf::params::dpm_dbpassword', undef)
+  $dpm_xrootdkey = hiera ('yaim_conf::params::dpm_xrootdkey', undef)
+  $dpm_tokenpassword = hiera ('yaim_conf::params::dpm_tokenpassword', undef)
+  $dpm_filesystems = hiera ('yaim_conf::params::dpm_filesystems', undef)
+
 }
